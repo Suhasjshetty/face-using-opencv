@@ -17,3 +17,6 @@ Fix a threshold value and here we are giving 50%, if the datasets has many image
 
 Drawing the rectangle around face.We can give input as image file or using webcam.Thus,face is recognised using opencv with better accuracy. 
 
+For openface model
+https://drive.google.com/drive/folders/1nZy2x0jqkYLiiH7Yb4ZW2uANEmTTSbe7
+
