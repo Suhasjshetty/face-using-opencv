@@ -13,7 +13,7 @@ We are also making use of cv2.dnn.blobFromImage which performs following functio
 Adding dataset to the datapath.Appending the images to the respective filename
 Creating empty face_embeddings and face_names and processing the images. Using blobfromimage above functions will be performed.
 The .prototxt file defines the model architecture.The .caffemodel file contains the weights for the actual layers based on these models face embeddings are created and appended to the empty list to quantify a face.
-Fix a threshold value and here we are giving 50%, if the datasets has many images we can set the threshold value to 30% still it will recognise the face.Hence,training is done.
+Fix a threshold value and here we are giving 50%, if the datasets has many images we can set the threshold value to 30% still it will recognise the face.
 
-Drawing the rectangle around face.We can give input as image file or using webcame.Thus the face is recognised using opencv with better accuracy. 
+Drawing the rectangle around face.We can give input as image file or using webcam.Thus,face is recognised using opencv with better accuracy. 
 
